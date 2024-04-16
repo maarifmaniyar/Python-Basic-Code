@@ -1,0 +1,613 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "918fe13b-5899-41e4-a4fc-e03e42ba0a80",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "grid\n",
+      "varaible\n",
+      "frfr\n"
+     ]
+    }
+   ],
+   "source": [
+    " print(\"grid\")\n",
+    "print(\"varaible\")\n",
+    "print(\"frfr\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "68627e26-48a6-486e-9feb-c760e0ee4454",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "20\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=10\n",
+    "b=10\n",
+    "print(a+b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "f9110f2e-7890-4f56-bb2c-95ca8048e372",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7\n",
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=7\n",
+    "print(a)\n",
+    "print(type(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "aa0d9ef3-6ccd-4841-a079-f51fad8f1918",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5.5 5.6\n",
+      "<class 'float'>\n",
+      "<class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=5.5\n",
+    "b=5.6\n",
+    "print(a,b)\n",
+    "print(type(a))\n",
+    "print(type(b))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "09fa83fd-70e5-428a-a048-f495d757d8e2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6\n",
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=\"6\"\n",
+    "print(a)\n",
+    "print(type(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "59e62d4b-6b82-441a-b705-7c6d460025e0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[5, 9]\n",
+      "<class 'list'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=[5,9]\n",
+    "print(a)\n",
+    "print(type(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "384cc2b2-55aa-4fda-a0e0-5defc0975087",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(2, 9)\n",
+      "<class 'tuple'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=(2,9)\n",
+    "print(a)\n",
+    "print(type(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "74a552a4-8a83-46a1-bfbc-65a72d5de3fc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "98\n",
+      "45\n",
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=98\n",
+    "b=45\n",
+    "print(a)\n",
+    "print(b)\n",
+    "print(type(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "03493de8-294a-4acc-b4d8-0aca4c226356",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a,g,h,f e,t,f,r dfsfv\n",
+      "a,g,h,fe,t,f,rdfsfv\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "a=\"a,g,h,f\"\n",
+    "b=\"e,t,f,r\"\n",
+    "print(a,b,\"dfsfv\")\n",
+    "print(a+b+\"dfsfv\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "8fdf58d4-a270-4016-98e0-4afa26823555",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 6\n",
+      " 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "11\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input())\n",
+    "b=int(input())\n",
+    "c=a+b\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "f1dbd87e-f9b6-47dd-9a2c-0592861497a3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1132\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=434\n",
+    "b=453\n",
+    "c=245\n",
+    "c=a+b+c\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "73427daf-6fc9-48c6-b168-843b390763c5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " eera\n",
+      " jeera\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "eera\n",
+      "jeera\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=str(input())\n",
+    "b=str(input())\n",
+    "print(a)\n",
+    "print(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "d909e7e2-88c1-4502-99a8-9e88f29047c2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter your Frsist Name Maarif \n",
+      "Enter your Last Name Maniyar\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Maarif Maniyar\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=str(input(\"Enter your Frsist Name\"))\n",
+    "b=str(input(\"Enter your Last Name\"))\n",
+    "c=a+b\n",
+    "print(c,)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ac644b4f-7269-4db1-a8ff-78e18f8e3d15",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the star date 12\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"Enter the star date\"))\n",
+    "b=int(input(\"Enter the end date\"))\n",
+    "c=a+b\n",
+    "print(c)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "df6b4cf0-9c7f-414f-9991-92a432636786",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter three numbers: 12 34 45 \n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "123445\n"
+     ]
+    }
+   ],
+   "source": [
+    "a,b,c=input(\"Enter three numbers:\").split()\n",
+    "d=a+b+c\n",
+    "print(d)\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "7e09e07f-424b-4d80-8550-6df4a8c50c2a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter your name:  Maarif\n",
+      "Enter your age:  12\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Maarif\n",
+      "You are not Eligible\n"
+     ]
+    }
+   ],
+   "source": [
+    "Name = input(\"Enter your name: \")\n",
+    "age = int(input(\"Enter your age: \"))\n",
+    "\n",
+    "if age>=18:\n",
+    "      print(Name)\n",
+    "      print(\"You are Eligible\")\n",
+    "else:\n",
+    "    print(Name)\n",
+    "    print(\"You are not Eligible\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "4c9ced8b-4a27-4097-94ff-ec6349f75ea2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the frist number 3\n",
+      "ENter the second number 1\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Valid number\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"Enter the frist number\"))\n",
+    "b=int(input(\"ENter the second number\"))\n",
+    "if a>b:\n",
+    "    print(\"Valid number\")\n",
+    "else:\n",
+    "    print(\"invalid number\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "3c970905-413f-4f2a-af74-fcf4c80d3a4e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 1\n",
+      " 4\n",
+      " 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "b is smaller\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input())\n",
+    "b=int(input())\n",
+    "c=int(input())\n",
+    "if a>b:\n",
+    "    if a>c:\n",
+    "        print(\"a is lagre number\")\n",
+    "    else:\n",
+    "        print(\"c is large number\")\n",
+    "else:\n",
+    "    if b>c:\n",
+    "        print(\"b is greater\")\n",
+    "    else:\n",
+    "        print(\"b is smaller\")\n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "335131a0-706a-400d-80b4-fa3bf4b91a24",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 10\n",
+      " 4\n",
+      " 7\n",
+      " 12\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Soaps are in stock\n"
+     ]
+    }
+   ],
+   "source": [
+    "soap=int(input())\n",
+    "Mug=int(input())\n",
+    "water=int(input())\n",
+    "clas=int(input())\n",
+    "if soap>Mug:\n",
+    "    if soap>water:\n",
+    "        print(\"Soaps are in stock\")\n",
+    "else:\n",
+    "    print(\"Soaps are out of stock\")\n",
+    "    if Mug>clas:\n",
+    "            print(\"Mugs are Avialible\")\n",
+    "    else:\n",
+    "        print(\"Mugs are not in stock\")\n",
+    "        \n",
+    "            "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "d33a09ae-edfb-408e-9abb-51c128f77223",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter your grades 83\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "A\n"
+     ]
+    }
+   ],
+   "source": [
+    "marks=int(input(\"Enter your grades\"))\n",
+    "if marks>=90 and marks<= 100:\n",
+    "    print(\"A+\")\n",
+    "else:\n",
+    "    if marks>=80 and marks<=90:\n",
+    "        print(\"A\")\n",
+    "    else:\n",
+    "        if marks>=70 and marks<=80:\n",
+    "            print(\"B+\")\n",
+    "        else:\n",
+    "            if marks>=60 and marks<=70:\n",
+    "                print(\"B\")\n",
+    "            else:\n",
+    "                if marks>=50 and marks<=60:\n",
+    "                    print(\"C+\")\n",
+    "                else:\n",
+    "                    if marks>=40 and marks<=50:\n",
+    "                        print(\"C\")\n",
+    "                    else:\n",
+    "                        if marks>=30 and marks<=40:\n",
+    "                            print(\"F\")\n",
+    "                        else:\n",
+    "                            print(\"invalid Marks\")\n",
+    "                    \n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0fdd63ac-61e1-44df-b514-0829dadb79df",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Day = int(input(\"Enter the day number\"))\n",
+    "\n",
+    "match Day:\n",
+    "    case 1: print(\"Sunday\")\n",
+    "    case 2: print(\"Monday\")\n",
+    "    case 3: print(\"Tuesday\")\n",
+    "    case 4: print(\"Wednesday\")\n",
+    "    case 5: print(\"Thursday\")\n",
+    "    case 6: print(\"Friday\")\n",
+    "    case 7: print(\"Saturday\")\n",
+    "    case _ if Day == 10:\n",
+    "        print(\"Ten\")\n",
+    "    case _ if Day>=14 and Day<=19:\n",
+    "        print(\"Teens\")\n",
+    "    case _: print(\"Invalid Day\")\n",
+    "        \n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "89da9d0b-fcb6-4883-aecb-c7525a15b9d9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
